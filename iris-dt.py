@@ -9,13 +9,9 @@ import seaborn as sns
 
 import dagshub
 
-dagshub.init(
-    repo_owner="campusx-official", repo_name="mlflow-dagshub-demo", mlflow=True
-)
+dagshub.init(repo_owner="aryan0147", repo_name="Campusx-mlflow-demo", mlflow=True)
 
-mlflow.set_tracking_uri(
-    "https://dagshub.com/campusx-official/mlflow-dagshub-demo.mlflow"
-)
+mlflow.set_tracking_uri("https://dagshub.com/aryan0147/Campusx-mlflow-demo.mlflow")
 
 # Load the iris dataset
 iris = load_iris()
